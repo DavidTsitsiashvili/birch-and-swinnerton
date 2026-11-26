@@ -260,7 +260,7 @@
   {
     "id": "def_period_lattice",
     "title": "Conceptual definition of the real period Ω",
-    "statement": "Define Ω(E) from the period lattice of E (E(ℂ) ≅ ℂ/Λ) and prove it agrees with the formal-conjectures definition. Suggested by David Ang (Zulip).",
+    "statement": "Define Ω(E) from the period lattice of E (E(ℂ) ≅ ℂ/Λ) and prove it agrees with the formal-conjectures definition. Suggested by David Ang (Zulip). Mathlib has no period lattices for elliptic curves over ℂ yet; start from the existing Weierstrass ℘-function API. formal-conjectures periods were cross-checked against Sage for curves over ℚ.",
     "lean": null,
     "status": "conjecture",
     "program": "definitions",
@@ -272,7 +272,7 @@
   {
     "id": "def_tamagawa_reduction",
     "title": "Conceptual definition of Tamagawa numbers",
-    "statement": "Define c_p from the reduction of E at p and prove it agrees with the formal-conjectures definition. Cross-check against PARI values. Suggested by David Ang (Zulip).",
+    "statement": "Define c_p from the reduction of E at p and prove it agrees with the formal-conjectures definition. Cross-check against PARI values. Suggested by David Ang (Zulip). Mathlib has nothing on component groups or Néron models yet: a large foundational project.",
     "lean": null,
     "status": "conjecture",
     "program": "definitions",

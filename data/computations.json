@@ -12,7 +12,7 @@
     "status": "consistent",
     "issues": [],
     "pari": "2.19.1",
-    "time": "2026-11-26T14:37:24"
+    "time": "2026-11-26T15:05:18"
   },
   "389.a1": {
     "analytic_rank": 2,
@@ -27,7 +27,7 @@
     "status": "consistent",
     "issues": [],
     "pari": "2.19.1",
-    "time": "2026-11-26T14:37:24"
+    "time": "2026-11-26T15:05:18"
   },
   "5077.a1": {
     "analytic_rank": 3,
@@ -42,7 +42,7 @@
     "status": "consistent",
     "issues": [],
     "pari": "2.19.1",
-    "time": "2026-11-26T14:37:24"
+    "time": "2026-11-26T15:05:18"
   },
   "11.a2": {
     "analytic_rank": 0,
@@ -57,7 +57,7 @@
     "status": "consistent",
     "issues": [],
     "pari": "2.19.1",
-    "time": "2026-11-26T14:37:24"
+    "time": "2026-11-26T15:05:18"
   },
   "Cremona 571a1": {
     "analytic_rank": 0,
@@ -72,6 +72,6 @@
     "status": "consistent",
     "issues": [],
     "pari": "2.19.1",
-    "time": "2026-11-26T14:37:24"
+    "time": "2026-11-26T15:05:18"
   }
 }
