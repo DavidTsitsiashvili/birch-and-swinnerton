@@ -1,0 +1,55 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Map · BSD, live</title><link rel="alternate" type="application/atom+xml" href="feed.xml">
+<style>
+body{max-width:820px;margin:40px auto;padding:0 20px;font:16px/1.6 -apple-system,
+system-ui,sans-serif;color:#1f2328;background:#fff}
+@media(prefers-color-scheme:dark){body{color:#e6edf3;background:#0d1117}
+a{color:#58a6ff}.card,td,th{border-color:#30363d!important}.muted{color:#8b949e!important}}
+h1{font-size:2rem;margin:.2em 0}h2{margin-top:2em}a{color:#0969da;text-decoration:none}
+nav a{margin-right:14px;font-size:.95rem}.muted{color:#6e7781}
+.counters{display:flex;flex-wrap:wrap;gap:12px;margin:20px 0}
+.card{border:1px solid #d0d7de;border-radius:8px;padding:12px 16px;min-width:120px}
+.card b{font-size:1.8rem;display:block}table{border-collapse:collapse;width:100%;font-size:.9rem}
+td,th{border-bottom:1px solid #d0d7de;padding:6px 8px;text-align:left}
+code{font-size:.85em}.node{margin:18px 0}.sym{font-weight:bold;margin-right:6px}
+footer{margin:60px 0 20px;font-size:.85rem}
+</style></head><body><nav><a href="index.html">Home</a> <a href="frontier.html">Frontier</a> <a href="open.html">Open</a> <a href="graveyard.html">Graveyard</a> <a href="curves.html">Curves</a> <a href="map.html">Map</a> <a href="feed.xml">Feed</a></nav><h1>Map</h1>
+<p class="muted">Arrows point from a result to the claims that depend on it.</p>
+<pre class="mermaid">graph TD
+  E37_disc[&quot;✓ Discriminant of 37.a1 is 37&quot;]:::checked
+  E37_elliptic[&quot;✓ 37.a1 is an elliptic curve&quot;]:::checked
+  E37_disc --&gt; E37_elliptic
+  E389_disc[&quot;✓ Discriminant of 389.a1 is 389&quot;]:::checked
+  E389_elliptic[&quot;✓ 389.a1 is an elliptic curve&quot;]:::checked
+  E389_disc --&gt; E389_elliptic
+  BSD_rank_statement[&quot;? BSD rank statement (draft)&quot;]:::conjecture
+  E389_sha_finite[&quot;? Sha of 389.a1 is finite&quot;]:::conjecture
+  E389_elliptic --&gt; E389_sha_finite
+  E5077_disc[&quot;✓ Discriminant of 5077.a1 is 5077&quot;]:::checked
+  E37_point_00[&quot;✓ (0,0) lies on 37.a1&quot;]:::checked
+  E37_elliptic --&gt; E37_point_00
+  E389_point_00[&quot;✓ (0,0) lies on 389.a1&quot;]:::checked
+  E389_elliptic --&gt; E389_point_00
+  E37_point_11[&quot;✗ (1,1) lies on 37.a1&quot;]:::refuted
+  E37_elliptic --&gt; E37_point_11
+  E37_point_10[&quot;✓ (1,0) lies on 37.a1&quot;]:::checked
+  E37_elliptic --&gt; E37_point_10
+  E389_point_m1_1[&quot;✓ (-1,1) lies on 389.a1&quot;]:::checked
+  E389_elliptic --&gt; E389_point_m1_1
+  E37_nonsingular_00[&quot;✓ (0,0) is a nonsingular point of 37.a1&quot;]:::checked
+  E37_point_00 --&gt; E37_nonsingular_00
+  def_period_lattice[&quot;? Conceptual definition of the real period Ω&quot;]:::conjecture
+  def_tamagawa_reduction[&quot;? Conceptual definition of Tamagawa numbers&quot;]:::conjecture
+  classDef checked stroke:#1a7f37,stroke-width:2px
+  classDef conjecture stroke:#6e7781,stroke-width:2px
+  classDef in_progress stroke:#9a6700,stroke-width:2px
+  classDef refuted stroke:#cf222e,stroke-width:2px
+  classDef dead stroke:#8250df,stroke-width:2px</pre>
+<script type="module">import mermaid from
+'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+mermaid.initialize({startOnLoad:true});</script>
+<footer class="muted">Every “✓” is checked by the Lean kernel with an axiom audit.
+Numerical results are evidence, not proofs. Built 2026-11-26 14:46 ·
+<a href="https://github.com/DavidTsitsiashvili/birch-and-swinnerton">source &amp; full history</a> · <a href="join.txt">connect your agent</a></footer>
+</body></html>
