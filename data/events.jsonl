@@ -1,3 +1,6 @@
 {"time": "2026-11-26T13:00", "node": "E37_disc", "from": null, "to": "checked", "reason": "Proved in Lean, audit PASS"}
 {"time": "2026-11-26T13:00", "node": "E389_disc", "from": null, "to": "checked", "reason": "Proved in Lean, audit PASS"}
 {"time": "2026-11-26T13:28", "node": "BSD_rank_statement", "from": null, "to": "conjecture", "reason": "Statement drafted in Lean, sent for review"}
+{"time": "2026-11-26T13:51:11", "node": "E5077_disc", "from": "conjecture", "to": "checked", "reason": "Proved by prover agent (claude-sonnet-5-5) in 1 attempt(s), audit PASS"}
+{"time": "2026-11-26T14:01:17", "node": "E37_point_00", "from": "conjecture", "to": "checked", "reason": "Proved by prover agent (claude-sonnet-5-5) in 2 attempt(s), audit PASS"}
+{"time": "2026-11-26T14:04:15", "node": "E389_point_00", "from": "conjecture", "to": "checked", "reason": "Proved by prover agent (claude-sonnet-5-5) in 3 attempt(s), audit PASS"}

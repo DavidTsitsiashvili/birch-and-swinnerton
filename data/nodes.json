@@ -1,32 +1,129 @@
 [
-  {"id": "E37_disc", "title": "Discriminant of 37.a1 is 37",
-   "statement": "The curve y² + y = x³ − x has discriminant 37.",
-   "lean": "BsdProject.E37_disc", "status": "checked", "program": "foundations",
-   "depends_on": [], "agent": "human",
-   "evidence": "bsd_project/BsdProject/Curves.lean", "created_at": "2026-11-26"},
-  {"id": "E37_elliptic", "title": "37.a1 is an elliptic curve",
-   "statement": "The discriminant of 37.a1 is nonzero.",
-   "lean": "BsdProject.E37_elliptic", "status": "checked", "program": "foundations",
-   "depends_on": ["E37_disc"], "agent": "human",
-   "evidence": "bsd_project/BsdProject/Curves.lean", "created_at": "2026-11-26"},
-  {"id": "E389_disc", "title": "Discriminant of 389.a1 is 389",
-   "statement": "The curve y² + y = x³ + x² − 2x has discriminant 389.",
-   "lean": "BsdProject.E389_disc", "status": "checked", "program": "foundations",
-   "depends_on": [], "agent": "human",
-   "evidence": "bsd_project/BsdProject/Curves.lean", "created_at": "2026-11-26"},
-  {"id": "E389_elliptic", "title": "389.a1 is an elliptic curve",
-   "statement": "The discriminant of 389.a1 is nonzero.",
-   "lean": "BsdProject.E389_elliptic", "status": "checked", "program": "foundations",
-   "depends_on": ["E389_disc"], "agent": "human",
-   "evidence": "bsd_project/BsdProject/Curves.lean", "created_at": "2026-11-26"},
-  {"id": "BSD_rank_statement", "title": "BSD rank statement (draft)",
-   "statement": "For every elliptic curve over ℚ, algebraic rank = analytic rank. Analytic rank is a placeholder until mathlib has L-functions.",
-   "lean": "BsdProject.BSDRank", "status": "conjecture", "program": "foundations",
-   "depends_on": [], "agent": "human",
-   "evidence": "bsd_project/BsdProject/Statement.lean", "created_at": "2026-11-26"},
-  {"id": "E389_sha_finite", "title": "Sha of 389.a1 is finite",
-   "statement": "The Tate–Shafarevich group of 389.a1 (rank 2) is finite. Open.",
-   "lean": null, "status": "conjecture", "program": "rank-2",
-   "depends_on": ["E389_elliptic"], "agent": "human",
-   "evidence": null, "created_at": "2026-11-26"}
+  {
+    "id": "E37_disc",
+    "title": "Discriminant of 37.a1 is 37",
+    "statement": "The curve y² + y = x³ − x has discriminant 37.",
+    "lean": "BsdProject.E37_disc",
+    "status": "checked",
+    "program": "foundations",
+    "depends_on": [],
+    "agent": "human",
+    "evidence": "bsd_project/BsdProject/Curves.lean",
+    "created_at": "2026-11-26"
+  },
+  {
+    "id": "E37_elliptic",
+    "title": "37.a1 is an elliptic curve",
+    "statement": "The discriminant of 37.a1 is nonzero.",
+    "lean": "BsdProject.E37_elliptic",
+    "status": "checked",
+    "program": "foundations",
+    "depends_on": [
+      "E37_disc"
+    ],
+    "agent": "human",
+    "evidence": "bsd_project/BsdProject/Curves.lean",
+    "created_at": "2026-11-26"
+  },
+  {
+    "id": "E389_disc",
+    "title": "Discriminant of 389.a1 is 389",
+    "statement": "The curve y² + y = x³ + x² − 2x has discriminant 389.",
+    "lean": "BsdProject.E389_disc",
+    "status": "checked",
+    "program": "foundations",
+    "depends_on": [],
+    "agent": "human",
+    "evidence": "bsd_project/BsdProject/Curves.lean",
+    "created_at": "2026-11-26"
+  },
+  {
+    "id": "E389_elliptic",
+    "title": "389.a1 is an elliptic curve",
+    "statement": "The discriminant of 389.a1 is nonzero.",
+    "lean": "BsdProject.E389_elliptic",
+    "status": "checked",
+    "program": "foundations",
+    "depends_on": [
+      "E389_disc"
+    ],
+    "agent": "human",
+    "evidence": "bsd_project/BsdProject/Curves.lean",
+    "created_at": "2026-11-26"
+  },
+  {
+    "id": "BSD_rank_statement",
+    "title": "BSD rank statement (draft)",
+    "statement": "For every elliptic curve over ℚ, algebraic rank = analytic rank. Analytic rank is a placeholder until mathlib has L-functions.",
+    "lean": "BsdProject.BSDRank",
+    "status": "conjecture",
+    "program": "foundations",
+    "depends_on": [],
+    "agent": "human",
+    "evidence": "bsd_project/BsdProject/Statement.lean",
+    "created_at": "2026-11-26"
+  },
+  {
+    "id": "E389_sha_finite",
+    "title": "Sha of 389.a1 is finite",
+    "statement": "The Tate–Shafarevich group of 389.a1 (rank 2) is finite. Open.",
+    "lean": null,
+    "status": "conjecture",
+    "program": "rank-2",
+    "depends_on": [
+      "E389_elliptic"
+    ],
+    "agent": "human",
+    "evidence": null,
+    "created_at": "2026-11-26"
+  },
+  {
+    "id": "E5077_disc",
+    "title": "Discriminant of 5077.a1 is 5077",
+    "statement": "The curve y² + y = x³ − 7x + 6 (smallest conductor of rank 3) has discriminant 5077.",
+    "lean": "BsdProject.E5077_disc",
+    "lean_goal": "theorem E5077_disc : ({ a₁ := 0, a₂ := 0, a₃ := 1, a₄ := -7, a₆ := 6 } : WeierstrassCurve ℚ).Δ = 5077",
+    "status": "checked",
+    "program": "foundations",
+    "depends_on": [],
+    "agent": "prover",
+    "evidence": "bsd_project/BsdProject/Agent/E5077_disc.lean",
+    "created_at": "2026-11-26",
+    "model": "claude-sonnet-5-5",
+    "updated_at": "2026-11-26T13:51:11"
+  },
+  {
+    "id": "E37_point_00",
+    "title": "(0,0) lies on 37.a1",
+    "statement": "The point (0, 0) satisfies y² + y = x³ − x.",
+    "lean": "BsdProject.E37_point_00",
+    "lean_goal": "theorem E37_point_00 : E37.toAffine.Equation 0 0",
+    "status": "checked",
+    "program": "foundations",
+    "depends_on": [
+      "E37_elliptic"
+    ],
+    "agent": "prover",
+    "evidence": "bsd_project/BsdProject/Agent/E37_point_00.lean",
+    "created_at": "2026-11-26",
+    "model": "claude-sonnet-5-5",
+    "updated_at": "2026-11-26T14:01:17"
+  },
+  {
+    "id": "E389_point_00",
+    "title": "(0,0) lies on 389.a1",
+    "statement": "The point (0, 0) satisfies y² + y = x³ + x² − 2x.",
+    "lean": "BsdProject.E389_point_00",
+    "lean_goal": "theorem E389_point_00 : E389.toAffine.Equation 0 0",
+    "status": "checked",
+    "program": "foundations",
+    "depends_on": [
+      "E389_elliptic"
+    ],
+    "agent": "prover",
+    "evidence": "bsd_project/BsdProject/Agent/E389_point_00.lean",
+    "created_at": "2026-11-26",
+    "model": "claude-sonnet-5-5",
+    "updated_at": "2026-11-26T14:04:15"
+  }
 ]
