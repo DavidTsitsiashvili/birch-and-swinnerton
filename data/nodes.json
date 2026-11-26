@@ -256,5 +256,29 @@
     "check": null,
     "model": "claude-sonnet-5-5",
     "updated_at": "2026-11-26T14:13:29"
+  },
+  {
+    "id": "def_period_lattice",
+    "title": "Conceptual definition of the real period Ω",
+    "statement": "Define Ω(E) from the period lattice of E (E(ℂ) ≅ ℂ/Λ) and prove it agrees with the formal-conjectures definition. Suggested by David Ang (Zulip).",
+    "lean": null,
+    "status": "conjecture",
+    "program": "definitions",
+    "depends_on": [],
+    "agent": "human",
+    "evidence": null,
+    "created_at": "2026-11-26"
+  },
+  {
+    "id": "def_tamagawa_reduction",
+    "title": "Conceptual definition of Tamagawa numbers",
+    "statement": "Define c_p from the reduction of E at p and prove it agrees with the formal-conjectures definition. Cross-check against PARI values. Suggested by David Ang (Zulip).",
+    "lean": null,
+    "status": "conjecture",
+    "program": "definitions",
+    "depends_on": [],
+    "agent": "human",
+    "evidence": null,
+    "created_at": "2026-11-26"
   }
 ]
