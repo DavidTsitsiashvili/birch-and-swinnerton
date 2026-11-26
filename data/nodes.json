@@ -280,5 +280,77 @@
     "agent": "human",
     "evidence": null,
     "created_at": "2026-11-26"
+  },
+  {
+    "id": "E37_nonsingular_10",
+    "title": "(1,0) is a nonsingular point of 37.a1",
+    "statement": "The point (1,0) is a nonsingular point of E37: y^2+y = x^3-x.",
+    "lean": null,
+    "lean_goal": "theorem E37_nonsingular_10 : E37.toAffine.Nonsingular 1 0",
+    "check": {
+      "type": "on_curve",
+      "curve": "37.a1",
+      "point": [
+        1,
+        0
+      ]
+    },
+    "status": "conjecture",
+    "program": "foundations",
+    "depends_on": [
+      "E37_elliptic"
+    ],
+    "agent": "proposer",
+    "model": "claude-sonnet-5-5",
+    "evidence": null,
+    "created_at": "2026-11-26T15:09:27"
+  },
+  {
+    "id": "E389_nonsingular_m1_1",
+    "title": "(-1,1) is a nonsingular point of 389.a1",
+    "statement": "The point (-1,1) is a nonsingular point of E389: y^2+y = x^3+x^2-2x.",
+    "lean": null,
+    "lean_goal": "theorem E389_nonsingular_m1_1 : E389.toAffine.Nonsingular (-1) 1",
+    "check": {
+      "type": "on_curve",
+      "curve": "389.a1",
+      "point": [
+        -1,
+        1
+      ]
+    },
+    "status": "conjecture",
+    "program": "foundations",
+    "depends_on": [
+      "E389_elliptic"
+    ],
+    "agent": "proposer",
+    "model": "claude-sonnet-5-5",
+    "evidence": null,
+    "created_at": "2026-11-26T15:09:27"
+  },
+  {
+    "id": "E37_point_22",
+    "title": "(2,2) lies on 37.a1",
+    "statement": "The point (2,2) satisfies y^2+y = x^3-x on E37 (6 = 6).",
+    "lean": null,
+    "lean_goal": "theorem E37_point_22 : E37.toAffine.Equation 2 2",
+    "check": {
+      "type": "on_curve",
+      "curve": "37.a1",
+      "point": [
+        2,
+        2
+      ]
+    },
+    "status": "conjecture",
+    "program": "foundations",
+    "depends_on": [
+      "E37_elliptic"
+    ],
+    "agent": "proposer",
+    "model": "claude-sonnet-5-5",
+    "evidence": null,
+    "created_at": "2026-11-26T15:09:27"
   }
 ]
