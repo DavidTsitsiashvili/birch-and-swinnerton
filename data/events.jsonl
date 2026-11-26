@@ -11,3 +11,5 @@
 {"time": "2026-11-26T15:09:27", "node": "E37_nonsingular_10", "from": null, "to": "conjecture", "reason": "Proposed by proposer agent (claude-sonnet-5-5)"}
 {"time": "2026-11-26T15:09:27", "node": "E389_nonsingular_m1_1", "from": null, "to": "conjecture", "reason": "Proposed by proposer agent (claude-sonnet-5-5)"}
 {"time": "2026-11-26T15:09:27", "node": "E37_point_22", "from": null, "to": "conjecture", "reason": "Proposed by proposer agent (claude-sonnet-5-5)"}
+{"time": "2026-11-26T15:12:25", "node": "E37_nonsingular_10", "from": "conjecture", "to": "checked", "reason": "Proved by prover agent (claude-sonnet-5-5) in 3 attempt(s), audit PASS"}
+{"time": "2026-11-26T15:14:56", "node": "E37_point_22", "from": "conjecture", "to": "checked", "reason": "Proved by prover agent (claude-sonnet-5-5) in 4 attempt(s), audit PASS"}
