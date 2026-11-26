@@ -1,2 +1,2 @@
-import BsdProject.Basic
 import Mathlib.AlgebraicGeometry.EllipticCurve.Weierstrass
+import BsdProject.Curves
