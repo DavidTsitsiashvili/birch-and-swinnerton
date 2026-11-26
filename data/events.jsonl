@@ -7,3 +7,4 @@
 {"time": "2026-11-26T14:09:27", "node": "E37_point_11", "from": "conjecture", "to": "refuted", "reason": "Refuter: (1, 1) is NOT on the curve"}
 {"time": "2026-11-26T14:13:29", "node": "E37_nonsingular_00", "from": "conjecture", "to": "checked", "reason": "Proved by prover agent (claude-sonnet-5-5) in 3 attempt(s), audit PASS"}
 {"time": "2026-11-26T14:15:16", "node": "E37_point_10", "from": "conjecture", "to": "checked", "reason": "Proved by prover agent (claude-sonnet-5-5) in 1 attempt(s), audit PASS"}
+{"time": "2026-11-26T14:17:33", "node": "E389_point_m1_1", "from": "conjecture", "to": "checked", "reason": "Proved by prover agent (claude-sonnet-5-5) in 2 attempt(s), audit PASS"}

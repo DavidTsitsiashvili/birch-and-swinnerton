@@ -1,5 +1,77 @@
 [
-  {"label": "37.a1",   "ainvs": [0, 0, 1, -1, 0], "conductor": 37,   "rank": 1, "note": "BSD rank part proven (Gross–Zagier + Kolyvagin)"},
-  {"label": "389.a1",  "ainvs": [0, 1, 1, -2, 0], "conductor": 389,  "rank": 2, "note": "smallest conductor of rank 2"},
-  {"label": "5077.a1", "ainvs": [0, 0, 1, -7, 6], "conductor": 5077, "rank": 3, "note": "smallest conductor of rank 3"}
+  {
+    "label": "37.a1",
+    "ainvs": [
+      0,
+      0,
+      1,
+      -1,
+      0
+    ],
+    "conductor": 37,
+    "rank": 1,
+    "note": "BSD rank part proven (Gross–Zagier + Kolyvagin)",
+    "bsd_numeric": "consistent",
+    "sha_an": 1
+  },
+  {
+    "label": "389.a1",
+    "ainvs": [
+      0,
+      1,
+      1,
+      -2,
+      0
+    ],
+    "conductor": 389,
+    "rank": 2,
+    "note": "smallest conductor of rank 2",
+    "bsd_numeric": "consistent",
+    "sha_an": 1
+  },
+  {
+    "label": "5077.a1",
+    "ainvs": [
+      0,
+      0,
+      1,
+      -7,
+      6
+    ],
+    "conductor": 5077,
+    "rank": 3,
+    "note": "smallest conductor of rank 3",
+    "bsd_numeric": "consistent",
+    "sha_an": 1
+  },
+  {
+    "label": "11.a2",
+    "ainvs": [
+      0,
+      -1,
+      1,
+      -10,
+      -20
+    ],
+    "conductor": 11,
+    "rank": 0,
+    "note": "smallest conductor; rank 0, torsion of order 5",
+    "bsd_numeric": "consistent",
+    "sha_an": 1
+  },
+  {
+    "label": "Cremona 571a1",
+    "ainvs": [
+      0,
+      -1,
+      1,
+      -929,
+      -10595
+    ],
+    "conductor": 571,
+    "rank": 0,
+    "note": "smallest conductor where Sha is nontrivial (Sha has order 4)",
+    "bsd_numeric": "consistent",
+    "sha_an": 4
+  }
 ]

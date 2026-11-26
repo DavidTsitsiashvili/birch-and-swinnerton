@@ -230,12 +230,14 @@
     "depends_on": [
       "E389_elliptic"
     ],
-    "lean": null,
-    "status": "conjecture",
+    "lean": "BsdProject.E389_point_m1_1",
+    "status": "checked",
     "program": "foundations",
-    "agent": null,
-    "evidence": null,
-    "created_at": "2026-11-26"
+    "agent": "prover",
+    "evidence": "bsd_project/BsdProject/Agent/E389_point_m1_1.lean",
+    "created_at": "2026-11-26",
+    "model": "claude-sonnet-5-5",
+    "updated_at": "2026-11-26T14:17:33"
   },
   {
     "id": "E37_nonsingular_00",
