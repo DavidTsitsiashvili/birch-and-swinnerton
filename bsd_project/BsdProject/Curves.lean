@@ -1,5 +1,6 @@
 import Mathlib.AlgebraicGeometry.EllipticCurve.Weierstrass
 
+set_option linter.style.header false
 /-!
 # First curves
 

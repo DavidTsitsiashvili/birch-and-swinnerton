@@ -1,0 +1,4 @@
+'BsdProject.E37_disc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BsdProject.E389_disc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BsdProject.E37_elliptic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BsdProject.E389_elliptic' depends on axioms: [propext, Classical.choice, Quot.sound]

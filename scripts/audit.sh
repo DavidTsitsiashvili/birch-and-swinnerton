@@ -15,7 +15,7 @@ echo "== Building =="
 lake build
 
 echo "== Axioms used by each theorem =="
-lake env lean ../scripts/Axioms.lean | tee ../audit-report.txt
+lake env lean BsdProject/Axioms.lean | tee ../audit-report.txt
 
 bad=$(grep -o '\[.*\]' ../audit-report.txt | tr -d '[] ' | tr ',' '\n' \
   | grep -vxE 'propext|Classical.choice|Quot.sound' | sort -u || true)
